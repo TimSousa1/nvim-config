@@ -14,13 +14,14 @@ vim.opt.swapfile = false
 vim.opt.incsearch = true
 
 vim.opt.scrolloff = 8
+vim.opt.expandtab = true
 vim.opt.updatetime = 50
 
 vim.g.mapleader = " "
 
-vim.cmd("set rnu")
-vim.cmd("set nu")
-vim.cmd("set tabstop=4")
-vim.cmd("set shiftwidth=4")
-vim.cmd("set expandtab")
-vim.cmd("set scrolloff=8")
+-- vim.cmd("set rnu")
+-- vim.cmd("set nu")
+-- vim.cmd("set tabstop=4")
+-- vim.cmd("set shiftwidth=4")
+-- vim.cmd("set expandtab")
+-- vim.cmd("set scrolloff=8")
