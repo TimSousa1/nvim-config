@@ -17,6 +17,8 @@ vim.opt.scrolloff = 8
 vim.opt.expandtab = true
 vim.opt.updatetime = 50
 
+vim.opt.undofile = true
+
 vim.g.mapleader = " "
 
 -- vim.cmd("set rnu")
