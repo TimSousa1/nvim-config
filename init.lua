@@ -15,30 +15,5 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("tim")
--- any better ways to set up opts the lazy.nvim way?
-
---[===[
-opts = {
-    guicursor = "",
-
-    nu = true,
-    relativenumber = true,
-
-    tabstop = 4,
-    softtabstop = 4,
-    shiftwidth = 4,
-    wrap = false,
-
-    swapfile = false,
-
-    incsearch = true,
-
-    scrolloff = 8,
-    updatetime = 50,
-
-    expandtab = true,
-}
---]===]
-
 require("lazy").setup("plugins", opts)
 
