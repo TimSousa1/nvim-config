@@ -5,8 +5,8 @@ return {
             require('snippy').setup({
                 mappings = {
                     is = {
-                        ['<Tab>'] = 'expand_or_advance',
-                        ['<S-Tab>'] = 'previous',
+                        ['<C-J>'] = 'expand_or_advance',
+                        ['<C-K>'] = 'previous',
                     },
                     nx = {
                         ['<leader>x'] = 'cut_text',
