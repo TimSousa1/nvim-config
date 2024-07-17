@@ -1,5 +1,4 @@
 vim.opt.guicursor = ""
-
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
@@ -20,6 +19,8 @@ vim.opt.updatetime = 50
 vim.opt.undofile = true
 
 vim.g.mapleader = " "
+
+vim.cmd("inoremap <C-c> <Esc>")
 
 -- vim.cmd("set rnu")
 -- vim.cmd("set nu")
